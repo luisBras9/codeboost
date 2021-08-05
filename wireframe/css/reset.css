@@ -9,22 +9,33 @@
   font-family: "Inter", sans-serif;
 }
 
+/* Imagem responsiva */
 img {
   max-width: 100%;
   display: block;
 }
 
+/* Fonte padrão em 10px - 1rem */
 html {
   font-size: 62.5%;
 }
 
+/* Padronização dos botões */
 button {
   background-color: transparent;
   cursor: pointer;
 }
 
+/* Grid ao centro (max-width está somando 30px (15+15) do padding - p/ respiro mobile) */
 .container {
   width: 100%;
-  max-width: 1216px;
+  max-width: 1246px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Grid fluida, ocupa todo espaço disponivel na tela */
+.container-fluid {
+  width: 100%;
+  padding: 0 15px;
 }
