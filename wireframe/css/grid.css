@@ -1,0 +1,13 @@
+/* Grid ao centro (max-width está somando 30px (15+15) do padding - p/ respiro mobile) */
+.container {
+  width: 100%;
+  max-width: 1246px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Grid fluida, ocupa todo espaço disponivel na tela */
+.container-fluid {
+  width: 100%;
+  padding: 0 15px;
+}
