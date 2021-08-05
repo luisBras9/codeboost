@@ -22,3 +22,9 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+
+.container {
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+}
