@@ -15,13 +15,12 @@ img {
   display: block;
 }
 
-/* Fonte padrão em 10px - 1rem */
+/* Define a fonte padrão como 10px - 1rem */
 html {
   font-size: 62.5%;
 }
 
 /* Padronização dos botões */
 button {
-  background-color: transparent;
   cursor: pointer;
 }
