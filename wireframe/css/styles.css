@@ -83,3 +83,9 @@ header nav .btn-primary {
 }
 
 /* Section Features Card */
+
+.s-card-featured {
+  background-color: var(--gray-colors-100);
+  padding-top: 10.4rem;
+  padding-bottom: 12rem;
+}
