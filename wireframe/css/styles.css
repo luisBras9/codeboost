@@ -180,3 +180,9 @@ header nav .btn-primary {
   align-items: center;
   justify-content: center;
 }
+
+/* Section Newsletter */
+
+.s-newsletter {
+  background-color: var(--gray-colors-200);
+}
