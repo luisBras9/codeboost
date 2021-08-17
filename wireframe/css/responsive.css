@@ -112,7 +112,7 @@
     max-width: 13rem;
   }
 
-  /* Sectiomn Hero */
+  /* Section Hero */
 
   .s-hero {
     padding: 4rem 0px;
@@ -168,5 +168,10 @@
   .s-card-featured .second-area .all-imgs .image {
     width: 40%;
     margin: 0 auto;
+  }
+
+  /* Section Newsletter */
+  .s-newsletter {
+    padding: 4rem 0;
   }
 }
