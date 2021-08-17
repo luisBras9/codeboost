@@ -185,4 +185,11 @@ header nav .btn-primary {
 
 .s-newsletter {
   background-color: var(--gray-colors-200);
+  padding: 15.2rem 0;
+}
+
+.s-newsletter .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
