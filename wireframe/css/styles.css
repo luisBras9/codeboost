@@ -209,3 +209,29 @@ header nav .btn-primary {
 .s-newsletter .btn-primary {
   padding: 1.75rem 4.1rem;
 }
+
+/* Footer */
+
+footer {
+  background-color: var(--gray-colors-100);
+  padding-top: 8.8rem;
+  padding-bottom: 3.9rem;
+}
+
+footer main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 7.2rem;
+}
+
+footer main .area-left {
+  max-width: 28.1rem;
+}
+
+footer main .area-left p {
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: var(--white-colors-text);
+}
