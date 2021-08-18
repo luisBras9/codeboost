@@ -95,6 +95,11 @@
 
 @media (max-width: 768px) {
   /* Footer */
+  footer main {
+    flex-direction: column;
+    align-items: center;
+  }
+
   footer main .area-left {
     display: flex;
     flex-direction: column;
@@ -204,6 +209,14 @@
 
   /* Footer */
 
+  footer {
+    padding: 4rem 0;
+  }
+
+  footer main {
+    padding-bottom: 4rem;
+  }
+
   footer .copy {
     flex-direction: column;
   }
@@ -223,5 +236,11 @@
 
   footer main nav .item:last-child {
     margin-bottom: 0;
+  }
+
+  footer main nav .item ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
