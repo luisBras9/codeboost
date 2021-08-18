@@ -277,3 +277,24 @@ footer main nav .item:last-child ul li a {
 footer main nav .item:last-child ul li a span {
   margin-left: 0.8rem;
 }
+
+footer .copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4.1rem;
+}
+
+footer .copy p {
+  color: var(--white);
+}
+
+footer .copy .group {
+  display: flex;
+  align-items: center;
+}
+
+footer .copy .group span {
+  color: var(--white);
+  margin-right: 0.8rem;
+}
