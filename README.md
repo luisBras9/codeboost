@@ -6,6 +6,11 @@
 
 ---
 
+### O que é SASS?
+
+- SASS é um pré-processador de CSS
+- https://scout-app.io/
+
 ## Projeto #01 - Wireframe
 
 <a href="https://codeboost-matheus.netlify.app/wireframe/"><img src=".github/wireframe.png" alt="Projeto Wireframe" width="500"></a>
