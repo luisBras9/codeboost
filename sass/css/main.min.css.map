@@ -1,13 +1,13 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AAED,AAAA,IAAI,AAAC,CACH,gBAAgB,CAAE,UAAU,CAC5B,KAAK,CAAE,OAAO,CACd,WAAW,CAAE,UAAU,CACxB,ACTD,MAAM,EAAE,SAAS,EAAE,KAAK,EACtB,AAAA,EAAE,AAAC,CACD,SAAS,CAAE,MAAM,CAClB,CCHH,AAAA,YAAY,AAAC,CACX,KAAK,CAAE,IAAI,CACX,gBAAgB,CAAE,UAAU,CAC7B,ACHD,AAAA,MAAM,AAAC,CACL,gBAAgB,CAAE,OAAO,CAC1B,ACFD,AAAA,MAAM,AAAC,CACL,gBAAgB,CAAE,IAAI,CACvB",
+    "mappings": "AEAA,AAAA,YAAY,AAAC,CACX,KAAK,CAAE,IAAI,CACX,gBAAgB,CAAE,UAAU,CAC7B,ACHD,AAAA,MAAM,AAAC,CACL,gBAAgB,CAAE,OAAO,CAC1B,ACFD,AAAA,MAAM,AAAC,CACL,gBAAgB,CAAE,IAAI,CACvB,ACFD,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AAED,AAAA,IAAI,AAAC,CACH,gBAAgB,CJLF,IAAI,CIMlB,KAAK,CAAE,OAAO,CACd,WAAW,CAAE,UAAU,CACxB",
     "sources": [
         "../scss/main.scss",
-        "../scss/_reset.scss",
-        "../scss/_responsive.scss",
+        "../scss/_variables.scss",
         "../scss/_buttons.scss",
         "../scss/_header.scss",
-        "../scss/_footer.scss"
+        "../scss/_footer.scss",
+        "../scss/_reset.scss"
     ],
     "names": [],
     "file": "main.min.css"
