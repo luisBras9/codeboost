@@ -1,5 +1,34 @@
+// Imports
 @import "variables";
 @import "buttons";
 @import "header";
 @import "footer";
 @import "reset";
+
+// Criação de Variável
+$color-primary: pink;
+
+// Chamada de Variável
+body {
+  background-color: $color-primary;
+}
+
+// Encadeamento
+.s-hero {
+  width: 100%;
+  height: 800px;
+  background-color: coral;
+
+  .text {
+    h1 {
+      color: greenyellow;
+    }
+    p {
+      color: grey;
+    }
+  }
+
+  .image {
+    max-width: 100%;
+  }
+}
