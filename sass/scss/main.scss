@@ -31,4 +31,22 @@ body {
   .image {
     max-width: 100%;
   }
+
+  button {
+    background-color: hotpink;
+    border: none;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+    // Chamada Hover
+    &:hover {
+      background-color: indigo;
+    }
+
+    // Chamada a classe específica (Ex: active)
+    &.active {
+      color: white;
+    }
+  }
 }
