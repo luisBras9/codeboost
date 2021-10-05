@@ -50,3 +50,17 @@ body {
     }
   }
 }
+
+// Minins
+
+@mixin style-button {
+  width: 75px;
+  padding: 0 15px;
+  background-color: black;
+  color: #fff;
+  font-weight: 500;
+}
+
+button {
+  @include style-button();
+}
