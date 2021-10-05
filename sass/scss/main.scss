@@ -84,6 +84,13 @@ body {
   border: none;
 }
 
+@mixin flex-element($align, $justify, $direction) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+
 // Definindo o argumento especifico para o width, height e background-color
 .second-section {
   .btn {
@@ -92,6 +99,9 @@ body {
 }
 
 footer {
+  @include flex-element(center, center, row);
+  background-color: pink;
+
   button {
     @include style-btn-com-argumento(200px, 50px, purple);
   }
