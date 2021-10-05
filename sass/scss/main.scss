@@ -52,6 +52,7 @@ body {
 }
 
 // Mixins
+// Parecido com as varivaies, porém podem conter vários atributos
 
 @mixin style-btn {
   width: 100%;
@@ -65,6 +66,12 @@ body {
 }
 
 .first-section {
+  .btn {
+    @include style-btn;
+  }
+}
+
+.second-section {
   .btn {
     @include style-btn;
   }
