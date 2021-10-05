@@ -71,8 +71,21 @@ body {
   }
 }
 
+// Minixs com Argumentos
+@mixin style-btn-com-argumento($largura) {
+  width: $largura;
+  padding: 1rem 15px;
+  margin: 2rem 0;
+  background-color: black;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+// Definindo o argumento especifico para o width
 .second-section {
   .btn {
-    @include style-btn;
+    @include style-btn-com-argumento(350px);
   }
 }
