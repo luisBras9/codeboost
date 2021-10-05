@@ -16,7 +16,7 @@ body {
 // Encadeamento
 .s-hero {
   width: 100%;
-  height: 800px;
+  height: 200px;
   background-color: coral;
 
   .text {
@@ -53,14 +53,19 @@ body {
 
 // Mixins
 
-@mixin style-button {
-  width: 75px;
-  padding: 0 15px;
+@mixin style-btn {
+  width: 100%;
+  padding: 1rem 15px;
+  margin: 2rem 0;
   background-color: black;
   color: #fff;
   font-weight: 500;
+  cursor: pointer;
+  border: none;
 }
 
-button {
-  @include style-button();
+.first-section {
+  .btn {
+    @include style-btn;
+  }
 }
