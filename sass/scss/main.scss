@@ -84,9 +84,15 @@ body {
   border: none;
 }
 
-// Definindo o argumento especifico para o width
+// Definindo o argumento especifico para o width, height e background-color
 .second-section {
   .btn {
     @include style-btn-com-argumento(350px, 100px, #415a21);
+  }
+}
+
+footer {
+  button {
+    @include style-btn-com-argumento(200px, 50px, purple);
   }
 }
