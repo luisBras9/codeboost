@@ -52,6 +52,18 @@ body {
   }
 
   // Exemplo Media Queries
+  @include responsive(1200px) {
+    //...Conteudo
+  }
+  @include responsive(991px) {
+    //...Conteudo
+  }
+  @include responsive(768px) {
+    //...Conteudo
+  }
+  @include responsive(600px) {
+    //...Conteudo
+  }
   @include responsive(480px) {
     .container {
       flex-direction: column;
@@ -61,6 +73,9 @@ body {
         color: white;
       }
     }
+  }
+  @include responsive(360px) {
+    //...Conteudo
   }
 }
 
