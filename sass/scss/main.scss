@@ -50,6 +50,18 @@ body {
       color: white;
     }
   }
+
+  // Exemplo Media Queries
+  @include responsive(480px) {
+    .container {
+      flex-direction: column;
+    }
+    .text {
+      p {
+        color: white;
+      }
+    }
+  }
 }
 
 // Mixins
