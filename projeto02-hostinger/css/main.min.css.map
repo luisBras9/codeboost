@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/_reset.scss",
+        "../scss/_variables.scss",
+        "../scss/_mixins.scss",
+        "../scss/_grid.scss",
+        "../scss/_home.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
