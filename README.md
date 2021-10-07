@@ -15,4 +15,4 @@
 
 <a href="https://codeboost-matheus.netlify.app/wireframe/"><img src=".github/wireframe.png" alt="Projeto Wireframe" width="500"></a>
 
-- https://codeboost-matheus.netlify.app/projeto01-wireframe/
+- https://matheuscostadesign.github.io/codeboost/projeto01-wireframe/
