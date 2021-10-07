@@ -13,6 +13,6 @@
 
 ## Projeto #01 - Wireframe
 
-<a href="https://codeboost-matheus.netlify.app/wireframe/"><img src=".github/wireframe.png" alt="Projeto Wireframe" width="500"></a>
+<a href="https://matheuscostadesign.github.io/codeboost/projeto01-wireframe/"><img src=".github/wireframe.png" alt="Projeto Wireframe" width="500"></a>
 
 - https://matheuscostadesign.github.io/codeboost/projeto01-wireframe/
