@@ -35,6 +35,10 @@ button {
     button {
       @include style-btn(5.4rem, $yellow, #503387);
       margin-bottom: 8.6rem;
+      &:hover {
+        background-color: $white;
+        color: $gray-01;
+      }
     }
 
     .conheca {
