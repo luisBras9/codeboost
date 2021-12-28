@@ -21,3 +21,9 @@
 <a href="https://matheuscostadesign.github.io/codeboost/projeto02-hostinger/"><img src=".github/02-hostinger.png" alt="Projeto Hostinger" width="500"></a>
 
 - https://matheuscostadesign.github.io/codeboost/projeto02-hostinger/
+
+### Projeto #03 - Neon
+
+<a href="https://matheuscostadesign.github.io/codeboost/projeto03-neon/"><img src=".github/03-neon.png" alt="Projeto Neon" width="500"></a>
+
+- https://matheuscostadesign.github.io/codeboost/projeto03-neon/
