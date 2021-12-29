@@ -30,7 +30,7 @@
     content="https://matheuscostadesign.github.io/codeboost/projeto03-neon/img/share-img.jpg">
 
   <!-- Favicon -->
-  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="icon" href="<?php echo get_template_directory_uri() ?>/img/favicon.png" type="image/png">
 
   <!-- Styles -->
   <link rel="stylesheet"
@@ -46,7 +46,7 @@
   <header>
     <div class="container">
       <a href="./" class="logo">
-        <img src="img/logo.svg" alt="Logo Neon">
+        <img src="<?php echo get_template_directory_uri() ?>/img/logo.svg" alt="Logo Neon">
       </a>
       <nav>
         <ul>
@@ -57,7 +57,7 @@
           <li><a href="#">Ajuda</a></li>
         </ul>
         <button class="btn-secondary white">Abra sua conta digital</button>
-        <button class="btn-mobile"><img src="img/btn-mobile.svg" alt="Menu Mobile"></button>
+        <button class="btn-mobile"><img src="<?php echo get_template_directory_uri() ?>/img/btn-mobile.svg" alt="Menu Mobile"></button>
       </nav>
     </div>
   </header>
@@ -71,19 +71,19 @@
         <ul>
           <li>
             <div class="icon">
-              <img src="img/icon-anuidade.svg" alt="Cartão sem anuidade">
+              <img src="<?php echo get_template_directory_uri() ?>/img/icon-anuidade.svg" alt="Cartão sem anuidade">
             </div>
             <span>Cartão sem <br>anuidade</span>
           </li>
           <li>
             <div class="icon">
-              <img src="img/icon-conta-digital.svg" alt="Conta digital 100% grátis">
+              <img src="<?php echo get_template_directory_uri() ?>/img/icon-conta-digital.svg" alt="Conta digital 100% grátis">
             </div>
             <span>Conta digital<br> 100% grátis</span>
           </li>
           <li>
             <div class="icon">
-              <img src="img/icon-dinheiro.svg" alt="Seu dinheiro rendendo mais">
+              <img src="<?php echo get_template_directory_uri() ?>/img/icon-dinheiro.svg" alt="Seu dinheiro rendendo mais">
             </div>
             <span>Seu dinheiro<br> rendendo mais</span>
           </li>
@@ -92,9 +92,9 @@
       <div class="area-image">
         <h2 data-aos="fade-left">Banco 100% digital</h2>
         <div class="image" data-aos="zoom-in">
-          <img src="img/card-neon-front.png" class="card-front" alt="Card Neon Front">
-          <img src="img/card-neon-back.png" class="card-back" alt="Card Neon Back">
-          <img src="img/circle-cards-neon.svg" class="circle" alt="Neon">
+          <img src="<?php echo get_template_directory_uri() ?>/img/card-neon-front.png" class="card-front" alt="Card Neon Front">
+          <img src="<?php echo get_template_directory_uri() ?>/img/card-neon-back.png" class="card-back" alt="Card Neon Back">
+          <img src="<?php echo get_template_directory_uri() ?>/img/circle-cards-neon.svg" class="circle" alt="Neon">
         </div>
       </div>
     </div>
@@ -104,12 +104,12 @@
     <div class="container">
       <div class="left-area">
         <div class="ilustra-mockup">
-          <img src="img/circle-mockup.svg" class="circle" data-aos="fade-left" alt="Circulo">
-          <img src="img/mockup.svg" class="mockup" data-aos="flip-right" alt="Mockup Neon">
+          <img src="<?php echo get_template_directory_uri() ?>/img/circle-mockup.svg" class="circle" data-aos="fade-left" alt="Circulo">
+          <img src="<?php echo get_template_directory_uri() ?>/img/mockup.svg" class="mockup" data-aos="flip-right" alt="Mockup Neon">
         </div>
         <div class="text" data-aos="fade-up">
           <div class="icon">
-            <img src="img/icon-neon.svg" alt="">
+            <img src="<?php echo get_template_directory_uri() ?>/img/icon-neon.svg" alt="">
           </div>
           <div class="info-txt">
             <h3>Baixe nosso app</h3>
@@ -117,12 +117,12 @@
             <ul>
               <li>
                 <a href="#" target="_blank" rel="noopener noreferrer">
-                  <img src="img/apple-store.svg" alt="Apple Store">
+                  <img src="<?php echo get_template_directory_uri() ?>/img/apple-store.svg" alt="Apple Store">
                 </a>
               </li>
               <li>
                 <a href="#" target="_blank" rel="noopener noreferrer">
-                  <img src="img/google-play.svg" alt="Google Play">
+                  <img src="<?php echo get_template_directory_uri() ?>/img/google-play.svg" alt="Google Play">
                 </a>
               </li>
             </ul>
@@ -135,33 +135,33 @@
           <ul>
             <li>
               <div class="info">
-                <img src="img/icon-cartao-credito.svg" alt="Icone">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-cartao-credito.svg" alt="Icone">
                 <div class="txt">
                   <h3>Cartão de crédito sem anuidade</h3>
                   <p>Conta digital com cartão de crédito sem anuidade e sem complicação</p>
                 </div>
               </div>
-              <img src="img/arrow-right.svg" alt="Icone">
+              <img src="<?php echo get_template_directory_uri() ?>/img/arrow-right.svg" alt="Icone">
             </li>
             <li>
               <div class="info">
-                <img src="img/icon-taxas.svg" alt="Icone">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-taxas.svg" alt="Icone">
                 <div class="txt">
                   <h3>Sem taxas</h3>
                   <p>Transferências, boletos de depósito e outros serviços gratuitos</p>
                 </div>
               </div>
-              <img src="img/arrow-right.svg" alt="Icone">
+              <img src="<?php echo get_template_directory_uri() ?>/img/arrow-right.svg" alt="Icone">
             </li>
             <li>
               <div class="info">
-                <img src="img/icon-investimentos.svg" alt="Icone">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-investimentos.svg" alt="Icone">
                 <div class="txt">
                   <h3>Mais investimentos</h3>
                   <p>Rendem mais que a poupança e você resgata quando quiser</p>
                 </div>
               </div>
-              <img src="img/arrow-right.svg" alt="Icone">
+              <img src="<?php echo get_template_directory_uri() ?>/img/arrow-right.svg" alt="Icone">
             </li>
           </ul>
           <a href="#" class="btn">Conheça outros produtos</a>
@@ -176,7 +176,7 @@
               <button class="btn-primary">SOU ME</button>
             </div>
           </div>
-          <img src="img/card-front-pj.svg" class="image" alt="Cartão Neon">
+          <img src="<?php echo get_template_directory_uri() ?>/img/card-front-pj.svg" class="image" alt="Cartão Neon">
         </div>
       </div>
     </div>
@@ -194,7 +194,7 @@
             <div class="card-depoimento">
               <div class="user">
                 <strong>@marciogurka</strong>
-                <img src="img/icon-twitter.svg" alt="Twitter">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-twitter.svg" alt="Twitter">
               </div>
               <p>Valeu @banconenon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon</p>
             </div>
@@ -203,7 +203,7 @@
             <div class="card-depoimento">
               <div class="user">
                 <strong>@kleriene18</strong>
-                <img src="img/icon-twitter.svg" alt="Twitter">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-twitter.svg" alt="Twitter">
               </div>
               <p>Eu uso o Neon pra render o pouquinho que eu tenho. Como disse minha amiga Bruna, um dia eu abro o app
                 de novo e PA: tô rica.</p>
@@ -213,7 +213,7 @@
             <div class="card-depoimento">
               <div class="user">
                 <strong>@mzltweet</strong>
-                <img src="img/icon-twitter.svg" alt="Twitter">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-twitter.svg" alt="Twitter">
               </div>
               <p>Só por ter um cartão virtual com bloqueio fácil no app, já ganha e muito na segurança pro cliente.</p>
             </div>
@@ -222,7 +222,7 @@
             <div class="card-depoimento">
               <div class="user">
                 <strong>@marciogurka</strong>
-                <img src="img/icon-twitter.svg" alt="Twitter">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-twitter.svg" alt="Twitter">
               </div>
               <p>Valeu @banconenon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon</p>
             </div>
@@ -231,7 +231,7 @@
             <div class="card-depoimento">
               <div class="user">
                 <strong>@marciogurka</strong>
-                <img src="img/icon-twitter.svg" alt="Twitter">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-twitter.svg" alt="Twitter">
               </div>
               <p>Valeu @banconenon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon</p>
             </div>
@@ -240,7 +240,7 @@
             <div class="card-depoimento">
               <div class="user">
                 <strong>@marciogurka</strong>
-                <img src="img/icon-twitter.svg" alt="Twitter">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-twitter.svg" alt="Twitter">
               </div>
               <p>Valeu @banconenon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon</p>
             </div>
@@ -249,7 +249,7 @@
             <div class="card-depoimento">
               <div class="user">
                 <strong>@marciogurka</strong>
-                <img src="img/icon-twitter.svg" alt="Twitter">
+                <img src="<?php echo get_template_directory_uri() ?>/img/icon-twitter.svg" alt="Twitter">
               </div>
               <p>Valeu @banconenon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon</p>
             </div>
@@ -266,7 +266,7 @@
         <ul>
           <li>
             <div class="icon">
-              <img src="img/icon-cartao-internacional.svg" alt="Icone">
+              <img src="<?php echo get_template_directory_uri() ?>/img/icon-cartao-internacional.svg" alt="Icone">
             </div>
             <div class="info">
               <h4>Cartão visa internacional</h4>
@@ -275,7 +275,7 @@
           </li>
           <li>
             <div class="icon">
-              <img src="img/icon-taxa-zero.svg" alt="Icone">
+              <img src="<?php echo get_template_directory_uri() ?>/img/icon-taxa-zero.svg" alt="Icone">
             </div>
             <div class="info">
               <h4>Zero mensalidade e anuidade</h4>
@@ -284,7 +284,7 @@
           </li>
           <li>
             <div class="icon">
-              <img src="img/icon-poupanca.svg" alt="Icone">
+              <img src="<?php echo get_template_directory_uri() ?>/img/icon-poupanca.svg" alt="Icone">
             </div>
             <div class="info">
               <h4>Investimento que rende mais que a poupança</h4>
@@ -295,9 +295,9 @@
         <button class="btn-primary">Abra sua conta digital</button>
       </div>
       <div class="image">
-        <img src="img/mockup-01.svg" data-aos="fade-up" class="mockup-01" alt="Mockup">
-        <img src="img/mockup-02.png" data-aos="fade-down" class="mockup-02" alt="Mockup">
-        <img src="img/circle-conta-digital.svg" data-aos="zoom-in" class="circle" alt="Circulo">
+        <img src="<?php echo get_template_directory_uri() ?>/img/mockup-01.svg" data-aos="fade-up" class="mockup-01" alt="Mockup">
+        <img src="<?php echo get_template_directory_uri() ?>/img/mockup-02.png" data-aos="fade-down" class="mockup-02" alt="Mockup">
+        <img src="<?php echo get_template_directory_uri() ?>/img/circle-conta-digital.svg" data-aos="zoom-in" class="circle" alt="Circulo">
       </div>
     </div>
   </section>
@@ -305,33 +305,33 @@
   <footer>
     <div class="container">
       <div class="top">
-        <img src="img/logo.svg" alt="Logo Neon">
+        <img src="<?php echo get_template_directory_uri() ?>/img/logo.svg" alt="Logo Neon">
         <div class="share">
           <span>Acompanhe nas redes</span>
           <ul>
             <li>
               <a href="#">
-                <img src="img/youtube.svg" alt="Youtube">
+                <img src="<?php echo get_template_directory_uri() ?>/img/youtube.svg" alt="Youtube">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="img/linkedin.svg" alt="linkedin">
+                <img src="<?php echo get_template_directory_uri() ?>/img/linkedin.svg" alt="linkedin">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="img/facebook.svg" alt="Facebook">
+                <img src="<?php echo get_template_directory_uri() ?>/img/facebook.svg" alt="Facebook">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="img/instagram.svg" alt="Instagram">
+                <img src="<?php echo get_template_directory_uri() ?>/img/instagram.svg" alt="Instagram">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="img/twitter-white.svg" alt="Twitter">
+                <img src="<?php echo get_template_directory_uri() ?>/img/twitter-white.svg" alt="Twitter">
               </a>
             </li>
           </ul>
@@ -384,14 +384,14 @@
         </nav>
         <div class="btns">
           <button>
-            <img src="img/envelope.svg" alt="Icone">
+            <img src="<?php echo get_template_directory_uri() ?>/img/envelope.svg" alt="Icone">
             <div class="info">
               <strong>Atendimento:</strong>
               <span>oi@neon.com.br (24 horas)</span>
             </div>
           </button>
           <button>
-            <img src="img/chat.svg" alt="Icone">
+            <img src="<?php echo get_template_directory_uri() ?>/img/chat.svg" alt="Icone">
             <div class="info">
               <strong>Imprensa:</strong>
               <span>imprensa@neon.com.br</span>
