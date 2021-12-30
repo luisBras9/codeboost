@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Primary Meta Tags -->
-  <title>Redesign Neon - Banco 100% digital</title>
+  <title><?php bloginfo('name')?><?php wp_title('-')?></title>
   <meta name="title" content="Redesign Neon - Banco 100% digital">
   <meta name="description" content="A conta digital certa pra cuidar bem do seu dinheiro">
 
