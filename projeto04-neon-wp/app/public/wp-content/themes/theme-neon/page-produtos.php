@@ -1,9 +1,9 @@
 <?php
-  // Template name: Blog
+  // Template name: Produtos
   ?>
 
 <?php get_header();?>
 
-<h1>Index - Blog</h1>
+<h1>Página Produtos</h1>
 
 <?php get_footer();?>
