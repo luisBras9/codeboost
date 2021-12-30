@@ -23,7 +23,12 @@ function registrar_menu_produtos_footer() {
   register_nav_menu('menu-produtos-footer',__( 'Menu Produtos Footer' ));
 }
 
+function registrar_menu_conta_footer() {
+  register_nav_menu('menu-conta-footer',__( 'Menu Conta Footer' ));
+}
+
 add_action( 'init', 'registrar_menu_principal' );
 add_action( 'init', 'registrar_menu_produtos_footer' );
+add_action( 'init', 'registrar_menu_conta_footer' );
 
 ?>

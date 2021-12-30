@@ -46,20 +46,21 @@
               );
               wp_nav_menu( $args );
             ?>
-            <!-- <ul>
-              <li><a href="#">Cartão de crédito</a></li>
-              <li><a href="#">Cartão pré-pago</a></li>
-              <li><a href="#">Neon Mais</a></li>
-              <li><a href="#">Investimentos</a></li>
-              <li><a href="#">Empréstimo</a></li>
-            </ul> -->
           </div>
           <div class="item">
             <strong>Conta digital PJ</strong>
-            <ul>
+            <?php
+              $args = array(
+                'menu' => 'Menu Conta Footer',
+                'theme_location' => 'menu-conta-footer',
+                'container' => false
+              );
+              wp_nav_menu( $args );
+            ?>
+            <!-- <ul>
               <li><a href="#">Sou MEI</a></li>
               <li><a href="#">Sou ME</a></li>
-            </ul>
+            </ul> -->
           </div>
           <div class="item">
             <strong>Blog</strong>
