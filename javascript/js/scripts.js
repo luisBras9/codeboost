@@ -1,3 +1,3 @@
-console.log("Hello World!");
+console.log("Ola Javascript!");
 
-alert("Hello World!");
+alert("Alert do Javascript!");
