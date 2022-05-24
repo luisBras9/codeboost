@@ -1,10 +1,10 @@
 //console.log("Ola Javascript!");
-
 //alert("Alert do Javascript!");
 
 /* 
-  Variáveis
-  - Responsaveis por guardar dados na memoria
+-----------------------------------------
+  Variáveis (guarda dados na memoria)
+-----------------------------------------
 */
 
 // Declaração de variaveis
@@ -18,10 +18,9 @@ var carroVendido = false;
 // console.log(marcaCarro + " - " + modeloCarro);
 
 /* 
-  Tipos de Variáveis
-  - var
-  - let
-  - const
+-----------------------------------------
+  Tipos de Variáveis (var, let, const)
+-----------------------------------------
 */
 
 // var (Pode ser alterada após execução)
@@ -43,7 +42,9 @@ let resultado = valor01 + valor02;
 console.log(resultado);
 
 /* 
+-----------------------------------------
   Tipos de Dados
+-----------------------------------------
 */
 
 var marcaCarro = "Gol" // String
@@ -78,3 +79,41 @@ console.log(propriedadesCarro.length);
 
 // Template Strings (concatenação de variáveis)
 console.log(`Marca do carro: ${marcaCarro} - Ano de fabricação: ${anoCarro}`)
+
+/* 
+-----------------------------------------
+  Números e Operadores
+-----------------------------------------
+*/
+
+let n1 = 8;
+let n2 = 5;
+let n3 = 10;
+let n4 = 80;
+
+let incrementar = 10;
+let retirar = 20;
+
+// Adição
+let soma = n1 + n2;
+console.log(soma);
+
+// Subtração
+let subtracao = n1 - n2;
+console.log(subtracao);
+
+// Multiplicação
+let multiplicacao = n1 * n2;
+console.log(multiplicacao);
+
+// Divisão
+let divisao = n1 / n2;
+console.log(divisao)
+
+// Incrementação de +1
+console.log(incrementar++) // Só vai incrementar após execução
+console.log(++n3); // Adiciona +1 na hora
+
+// Retira 1
+console.log(retirar--) // Só vai incrementar após execução
+console.log(--n4); // Adiciona +1 na hora
