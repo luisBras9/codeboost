@@ -27,3 +27,7 @@
 <a href="https://matheuscostadesign.github.io/codeboost/projeto03-neon/"><img src=".github/03-neon.png" alt="Projeto Neon" width="500"></a>
 
 - https://matheuscostadesign.github.io/codeboost/projeto03-neon/
+
+### Projeto #05 - God-of-war-ragnarok
+
+<a href="#"><img src=".github/05-god-of-war-ragnarok.png" alt="Projeto Neon" width="500"></a>
